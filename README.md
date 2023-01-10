@@ -54,3 +54,8 @@ This project folder details a project where I showed that the randomness of rain
 ![](/Images/autocorrelation.png)
 
 * Together, these results illistrate that rainfall on Easter Island would have appeared random to the ancient inhabitants of the island.
+
+
+## Acknowledgements
+
+I would like to thank my collaborators Dr. Terry Hunt and Dr. Carl Lipo for their valuable input on this project as well as Michaela Starkey for all of her valuable advice on time series analysis.
