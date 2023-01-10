@@ -43,18 +43,17 @@ This project folder details a project where I showed that the randomness of rain
 
 ![](/Images/distributions.png)
 
-* The linear regression for the trendline is insignificant (p-value = 0.345, R^2 = 0.0862), meaning that rainfall hasn't changed over the past couple of decades and we may be able to extrapolate to the past 
+* The linear regression for the trendline is insignificant (p-value = 0.345, R^2 = 0.0862), meaning that rainfall hasn't changed over the past couple of decades and we may be able to extrapolate to the past. In the following figure, the x-axis is time, and the y-axis is some component of rainfall in terms of inches per day. 
 
 ![](/Images/timeSeries.png)
 
-* The signal to noise ratio from Winter-Holts is 0.175, well below the typical threshold of 3
+* The signal to noise ratio from Winter-Holts is 0.175, well below the typical threshold of 3. 
 
-* This means that the rainfall of one month depends significantly on rainfall from the previous month. However, the autocorrelation of 0.186 is small according to Cohen’s thresholds for effect sizes (1992). 
+* This means that the rainfall of one month depends significantly on rainfall from the previous month. However, the autocorrelation of 0.186 is small according to Cohen’s thresholds for effect sizes. In the following figure, the x-axis shows lag (in terms of months) and the y-axis gives the autocorrelation of that lag. The dotted line shows the threshold for statistically significant autocorrelations.  
 
 ![](/Images/autocorrelation.png)
 
 * Together, these results illistrate that rainfall on Easter Island would have appeared random to the ancient inhabitants of the island.
-
 
 ## Acknowledgements
 
