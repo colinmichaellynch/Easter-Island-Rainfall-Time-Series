@@ -47,7 +47,7 @@ This project folder details a project where I showed that the randomness of rain
 
 ![](/Images/timeSeries.png)
 
-* The signal to noise ratio from Winter-Holts is 0.175, well below the typical thresholf of 3
+* The signal to noise ratio from Winter-Holts is 0.175, well below the typical threshold of 3
 
 * This means that the rainfall of one month depends significantly on rainfall from the previous month. However, the autocorrelation of 0.186 is small according to Cohen’s thresholds for effect sizes (1992). 
 
