@@ -35,11 +35,11 @@ This project folder details a project where I showed that the randomness of rain
   
 ## Results 
 
-* Rainfall and drougt distributions more closely follow an exponential distribution rather than a truncated one, as they have lower AIC/BIC values 
+* Rainfall and drougt distributions more closely follow an exponential distribution rather than a truncated one, as they have lower AIC/BIC values, as represented in the following table. 
 
 ![](/Images/table.png)
 
-* This means that rainfall is more aperiodic than periodic. 
+* This means that rainfall is more aperiodic than periodic. We can see the raw distributions in the following figure, where the x-axis is the length of a rainfall (gray) or drought (gold) event, and the y-axis is the count. 
 
 ![](/Images/distributions.png)
 
