@@ -14,3 +14,9 @@ This project folder details a project where I showed that the randomness of rain
 ## Methods 
 
 In the model, rainfall was treated as a binary, discrete variable that could either be random or periodic. When rainfall was random, run times of rainfall and drought were drawn from an exponential distribution. Conversely, when rainfall was periodic, run times were drawn from a truncated exponential distribution. 
+
+![](/Images/distributions.png)
+
+![](/Images/timeSeries.png)
+
+![](/Images/autocorrelation.png)
