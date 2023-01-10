@@ -3,11 +3,11 @@ Time Series analysis of Rainfall on Easter Island
 
 ## Table of Contents
 
-* Rainfall Data 
+* [Rainfall Data](https://github.com/colinmichaellynch/Easter-Island-Rainfall-Time-Series/blob/main/RainData.csv)
 
-* Time Series Script
+* [Time Series Script](https://github.com/colinmichaellynch/Easter-Island-Rainfall-Time-Series/blob/main/TimeSeriesAnalysis.R)
 
-* Supporting Documentation 
+* [Supporting Documentation](https://github.com/colinmichaellynch/Easter-Island-Rainfall-Time-Series/blob/main/Environmental%20stochasticity%20and%20resource%20heterogeneity%20may%20have%20driven%20the%20evolution%20of%20cooperation%20on%20Rapa%20Nui%20%20(1).docx) 
 
 ## Background
 
