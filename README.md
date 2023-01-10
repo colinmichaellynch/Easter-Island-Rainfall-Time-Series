@@ -35,8 +35,22 @@ This project folder details a project where I showed that the randomness of rain
   
 ## Results 
 
+* Rainfall and drougt distributions more closely follow an exponential distribution rather than a truncated one, as they have lower AIC/BIC values 
+
+![](/Images/table.png)
+
+* This means that rainfall is more aperiodic than periodic. 
+
 ![](/Images/distributions.png)
+
+* The linear regression for the trendline is insignificant (p-value = 0.345, R^2 = 0.0862), meaning that rainfall hasn't changed over the past couple of decades and we may be able to extrapolate to the past 
 
 ![](/Images/timeSeries.png)
 
+* The signal to noise ratio from Winter-Holts is 0.175, well below the typical thresholf of 3
+
+* This means that the rainfall of one month depends significantly on rainfall from the previous month. However, the autocorrelation of 0.186 is small according to Cohen’s thresholds for effect sizes (1992). 
+
 ![](/Images/autocorrelation.png)
+
+* Together, these results illistrate that rainfall on Easter Island would have appeared random to the ancient inhabitants of the island.
