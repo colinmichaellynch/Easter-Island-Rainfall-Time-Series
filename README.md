@@ -37,21 +37,29 @@ This project folder details a project where I showed that the randomness of rain
 
 * Rainfall and drougt distributions more closely follow an exponential distribution rather than a truncated one, as they have lower AIC/BIC values, as represented in the following table. 
 
-![](/Images/table.png)
+<p align="center">
+  <img src=/Images/table.png>
+</p>
 
 * This means that rainfall is more aperiodic than periodic. We can see the raw distributions in the following figure, where the x-axis is the length of a rainfall (gray) or drought (gold) event, and the y-axis is the count. 
 
-![](/Images/distributions.png)
+<p align="center">
+  <img src=/Images/distributions.png>
+</p>
 
 * The linear regression for the trendline is insignificant (p-value = 0.345, R^2 = 0.0862), meaning that rainfall hasn't changed over the past couple of decades and we may be able to extrapolate to the past. In the following figure, the x-axis is time, and the y-axis is some component of rainfall in terms of inches per day. 
 
-![](/Images/timeSeries.png)
+<p align="center">
+  <img src=/Images/timeSeries.png>
+</p>
 
 * The signal to noise ratio from Winter-Holts is 0.175, well below the typical threshold of 3. 
 
 * This means that the rainfall of one month depends significantly on rainfall from the previous month. However, the autocorrelation of 0.186 is small according to Cohen’s thresholds for effect sizes. In the following figure, the x-axis shows lag (in terms of months) and the y-axis gives the autocorrelation of that lag. The dotted line shows the threshold for statistically significant autocorrelations.  
 
-![](/Images/autocorrelation.png)
+<p align="center">
+  <img src=/Images/autocorrelation.png>
+</p>
 
 * Together, these results illistrate that rainfall on Easter Island would have appeared random to the ancient inhabitants of the island.
 
